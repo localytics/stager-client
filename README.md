@@ -25,7 +25,7 @@ stager configure endpoint=https://your-stager-instance.com/ auth_strategy=Basic 
 
 ## Adding Auth Strategies
 
-When [adding authentication strategies to Stager](https://github.com/localytics/stager/tree/master/request_handlers#authentication_strategy) it is often useful to add a corresponding auth strategy to the Stager cli gem. This allows you to set the auth_strategy using the stager configure command, and have all requests to Stager automatically amended to include the necessary authentication info.
+When [adding authentication strategies to Stager](https://github.com/localytics/stager-server/tree/master/request_handlers#authentication_strategy) it is often useful to add a corresponding auth strategy to the Stager cli gem. This allows you to set the auth_strategy using the stager configure command, and have all requests to Stager automatically amended to include the necessary authentication info.
 
 Adding an auth_strategy is very simple, define a class which inherits from Stager::AuthStrategy in the auth_strategies folder, inside the Stager module namespace, and implement the sign_request_options method.
 
