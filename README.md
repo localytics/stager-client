@@ -1,6 +1,6 @@
 # Stager cli
 
-This gem installs a command line interface for working with a [Stager](https://github.com/localytics/stager) instance.
+This gem installs a command line interface for working with a [Stager](https://github.com/localytics/stager-server) instance.
 
 ## Installation
 
